@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-microservice-ike-dev
+  AWS_PROFILE: udacity
+  AWS_REGION: us-east-1
+  JWT_SECRET: hello
+  POSTGRESS_DB: udagram_microservice_ike_dev
+  POSTGRESS_HOST: udagram-microservice-ike-dev.cmcgzqnfsiqu.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100
+metadata:
+  name: env-config
